@@ -1,0 +1,20 @@
+# Scenario v0.1 defaults. Every value is a starting point.
+
+[world]
+agent_count = 6           # allowed 3 to 25
+energy_cap = 100.00
+starting_energy = 50
+starting_credits = 50
+exchange_rate = 1         # energy points bought per credit
+action_cost = 0.1
+end_condition = "all_dead"
+
+[tiers.1]
+agents = 1
+energy_cost = 1
+credits = 1
+
+[tiers.2]
+agents = 2
+energy_cost = 2
+credits = 3
